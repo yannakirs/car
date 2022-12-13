@@ -1,0 +1,320 @@
+
+  
+  body {
+    width:100px;
+    height:100px;
+    background-image: url(https://suhoyles.ru/images/forest-43.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(36, 32, 104);
+    overflow: hidden;
+  }
+
+
+  
+  
+  #circle {
+    background-color:  rgb(255, 255, 255);
+    margin: 20px auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 200px;
+    border: 5px solid rgb(201, 17, 10);
+    position:absolute;
+    left:305px; 
+    top:480px;
+   
+    z-index: 200;
+  }
+  #circle2 {
+   
+   
+    background-color:  rgb(255, 255, 255);
+    margin: 20px auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 200px;
+    border: 5px solid rgb(201, 17, 10);
+    position:absolute;
+    left:420px; 
+    top:480px;
+    z-index: 800;
+  }
+  #disk {
+    background-color:  rgb(158, 14, 9);
+    margin: 20px auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 200px;
+    border: 3px solid rgb(201, 17, 10);
+    position:absolute;
+    left:437px; top:498px;
+   
+    z-index: 900;
+  }
+   
+
+  
+  #disk1 {
+    background-color:  rgb(158, 14, 9);
+    margin: 20px auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 200px;
+    border: 3px solid rgb(201, 17, 10);
+    position:absolute;
+    left:322px; top:498px;
+   
+    z-index: 900;
+  }
+ 
+#circle1 {
+    width:15px;
+    height:10px;
+    background:rgb(255, 248, 39);
+    position:absolute;
+    border: 2px solid rgb(255, 255, 255);
+    left:470px;
+  margin: 20px auto;
+    top:440px;
+    border-radius: 200px;
+    transform: rotate(40deg);
+    z-index: 700;
+  }
+  #circle4 {
+    width:15px;
+    height:10px;
+    background:rgb(255, 248, 39);
+    border: 2px solid rgb(255, 255, 255);
+    position:absolute;
+    left:285px;
+  margin: 20px auto;
+    top:445px;
+    border-radius: 200px;
+    transform: rotate(90deg);
+    z-index: 700;
+  }
+  
+ 
+    #box {
+      width:210px;
+      height:80px;
+      background-color: rgb(255, 21, 13);; 
+      border-radius: 30px 160px 100px 70px;
+    margin: 20px auto;
+    position:absolute;
+    left:290px; top:430px;
+    z-index: 100;
+  }
+
+
+#triangle{
+    display: inline-block;
+	border-bottom: 20px solid rgb(224, 11, 4);
+	border-left: 60px solid transparent;
+    margin: 20px auto;
+    position:absolute;
+    top:410px;
+ left: 300px;
+}
+
+
+#trapezoid {
+    border-bottom: 20px solid rgb(85, 54, 25);
+    border-left: 0px solid transparent;
+    border-right:10px solid transparent;
+    height: 0;
+    width: 15px;
+    position: absolute;
+    top: 430px;
+    left: 360px;
+    z-index: 300;
+
+}
+#triangle1{
+	display: inline-block;
+	border-bottom: 25px solid rgba(177, 246, 255, 0.37);
+	border-right: 25px solid transparent;
+    margin: 20px auto;
+    position:absolute;
+    top:405px;
+left: 420px;
+}
+#light{
+  display: inline-block;
+  border: 8px solid transparent;	
+  border-right: 50px solid rgba(246, 220, 106, 0.789) ;
+  height: 4px;
+  margin: 20px auto;
+  position: absolute;
+  top: 435px;
+  left: 470px;
+  animation: blinker 3s forwards;
+  z-index: 200;
+}
+@keyframes blinker {
+  0% { opacity: 1.0; }
+  10% { opacity: 0.0; }
+  20%{opacity: 1.0;}
+  30%{opacity: 0.0;}
+  40%{opacity: 0.0;}
+  50%{opacity: 1.0;}
+  60%{opacity: 0.0;}
+  70%{opacity: 1.0;}
+  80%{opacity: 0.0;}
+  90%{opacity: 1.0;}
+  100%{opacity: 0.0;}
+}
+
+
+
+
+#door {
+  width: 16px;
+  height: 5px;
+  position: absolute;
+  background-color: #a71111;
+top: 460px;
+  left: 370px;
+  border-radius: 20px;
+  z-index: 400;
+}
+#branch {
+  z-index: 600;
+  width: 2px;
+  height: 80px;
+  position: absolute;
+  top: 450px;
+  background-color: rgb(201, 17, 10);
+  left: 360px;
+}
+#zerkalo {
+  width: 18px;
+  height: 10px;
+  position: absolute;
+  background-color:  rgb(255, 21, 13);
+  border: 2px solid  #a71111;
+top: 445px;
+  left: 410px;
+  border-radius: 20px;
+  z-index: 400;
+}
+#branch1 {
+  z-index: 300;
+  width: 2px;
+  height: 80px;
+  position: absolute;
+  top: 450px;
+  background-color: rgb(201, 17, 10);
+  left: 430px;
+}
+
+#car {
+  position: absolute;
+  margin: 20px auto;
+  bottom: 300px;
+  width:200px;
+  height:400px;
+  z-index: 700;
+
+}
+
+  #car {
+  animation: movecar 3s linear forwards;
+}
+@keyframes movecar {
+   0% {transform: translateX(-450px);}
+  100% {transform: translateX(890px);} 
+
+
+
+}  
+
+#tire-line {
+  height:30px;
+  width:30px;
+  top:510px;
+  left:430px;
+  position: absolute;
+  border-radius: 200px;
+  border-left: 4px solid rgb(201, 17, 10);;
+  border-right: 4px solid transparent;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+z-index: 900;
+animation: spin 3s linear 0s forwards;
+}
+#tire-line1 {
+  height:30px;
+  width:30px;
+  top:510px;
+  left:315px;
+  position: absolute;
+  border-radius: 200px;
+  border-left: 4px solid rgb(201, 17, 10);;
+  border-right: 4px solid transparent;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+z-index: 700;
+animation: spin 3s linear 0s forwards;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);}
+20%{
+  transform: rotate(72deg);
+}
+40% {
+  transform: rotate(144deg);}
+  60% {
+    transform: rotate(216deg);}
+    80% {
+      transform: rotate(288deg);}
+
+ 
+    100%{
+      transform: rotate(360deg) ;}
+  
+  
+
+}
+#wheels{
+  position: absolute;
+  margin: 20px auto;
+  bottom: 380px;
+  width:400px;
+  height:370px;
+  z-index: 800;
+}
+.earth{
+  width:1500px;
+  height: 300px;
+left: 0px;
+  background-color: rgb(78, 78, 78);
+  top: 600px;
+  position: absolute;
+
+}
+#moon{
+  height:100px;
+  width:90px;
+  top:100px;
+ right: 300px;
+  position: absolute;
+  margin: -30px 0 30px 0;
+border-radius: 50%;
+box-shadow: 15px 15px 10px 0 #FFFF00;
+  
+
+z-index: 900;
+}
+.lines {
+  border: 5px dashed rgba(255, 255, 255, 0.823);
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  top: 700px; 
+  z-index: 700;
+}
